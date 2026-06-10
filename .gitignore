@@ -1,0 +1,29 @@
+# Ignore editor and OS files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore build and dependency output for frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+frontend/.tanstack/
+frontend/.output/
+frontend/.nitro/
+frontend/*.local
+frontend/.wrangler/
+
+# Ignore build and dependency output for humain-ai-main if present
+humain-ai-main/node_modules/
+humain-ai-main/dist/
+humain-ai-main/.vite/
+humain-ai-main/.tanstack/
+humain-ai-main/.output/
+humain-ai-main/.nitro/
+humain-ai-main/*.local
